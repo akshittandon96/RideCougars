@@ -17,19 +17,34 @@ class LoginPageViewController: UIViewController {
     @IBOutlet weak var passText: UITextField!
     @IBOutlet weak var emailText: UITextField!
     @IBAction func loginButton(_ sender: Any) {
-        Auth.auth().signIn(withEmail: emailText.text!, password: passText.text!){
-            (result, error) in
-            
-            if error != nil {
-                print("login error")
+        if passText.text!.count > 0 && emailText.text!.count > 0
+        {
+            //authentication start
+            Auth.auth().signIn(withEmail: emailText.text!, password: passText.text!){
+                (result, error) in
                 
+                if error != nil {
+                    let alert = UIAlertController(title: "Incorrect Information", message: "Please enter your correct username or password", preferredStyle: .alert)
+                    alert.addAction(UIAlertAction(title: "Okay", style: .cancel, handler: nil))
+                    self.present(alert, animated: true, completion: nil)
+                }
+                else{
+                    print("success blah")
+                    self.performSegue(withIdentifier: "afterLoginSegue", sender: self)
+                }
             }
-            else{
-                print("success blah")
-            }
+            //authentication end
         }
-      
-        
+        else
+        {
+            let alert = UIAlertController(title: "Missing Information", message: "Please enter your username or password", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Okay", style: .cancel, handler: nil //_ in
+                //self.dismiss(animated: true, completion: nil)
+            ))
+            self.present(alert, animated: true, completion: nil)
+
+        }
+    
     }
     
     
