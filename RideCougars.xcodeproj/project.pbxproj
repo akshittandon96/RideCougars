@@ -15,6 +15,8 @@
 		44061D002353A72E00E3F608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44061CFE2353A72E00E3F608 /* LaunchScreen.storyboard */; };
 		44061D0B2353A72E00E3F608 /* RideCougarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061D0A2353A72E00E3F608 /* RideCougarsTests.swift */; };
 		44061D162353A72E00E3F608 /* RideCougarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061D152353A72E00E3F608 /* RideCougarsUITests.swift */; };
+		44061D242353AC4D00E3F608 /* landingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061D232353AC4D00E3F608 /* landingPage.swift */; };
+		44061D262353AE2900E3F608 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061D252353AE2900E3F608 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		44061D112353A72E00E3F608 /* RideCougarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideCougarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44061D152353A72E00E3F608 /* RideCougarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideCougarsUITests.swift; sourceTree = "<group>"; };
 		44061D172353A72E00E3F608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44061D232353AC4D00E3F608 /* landingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landingPage.swift; sourceTree = "<group>"; };
+		44061D252353AE2900E3F608 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				44061CF52353A72C00E3F608 /* FirstViewController.swift */,
 				44061CF72353A72C00E3F608 /* SecondViewController.swift */,
 				44061CF92353A72C00E3F608 /* Main.storyboard */,
+				44061D252353AE2900E3F608 /* ThirdViewController.swift */,
+				44061D232353AC4D00E3F608 /* landingPage.swift */,
 				44061CFC2353A72E00E3F608 /* Assets.xcassets */,
 				44061CFE2353A72E00E3F608 /* LaunchScreen.storyboard */,
 				44061D012353A72E00E3F608 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				44061CF82353A72C00E3F608 /* SecondViewController.swift in Sources */,
 				44061CF42353A72C00E3F608 /* AppDelegate.swift in Sources */,
+				44061D262353AE2900E3F608 /* ThirdViewController.swift in Sources */,
+				44061D242353AC4D00E3F608 /* landingPage.swift in Sources */,
 				44061CF62353A72C00E3F608 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
