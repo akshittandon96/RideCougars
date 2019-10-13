@@ -1,0 +1,6 @@
+framework module Pods_RideCougars {
+  umbrella header "Pods-RideCougars-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>79997339840-gq3gudd4dvce7jtoertqo4ci4o6suqvg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.79997339840-gq3gudd4dvce7jtoertqo4ci4o6suqvg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCZMYGA0I5sXrgbHCQIVSxqfeX0WQLtkA4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>79997339840</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Training.RideCougars</string>
+	<key>PROJECT_ID</key>
+	<string>ridecougar</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ridecougar.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:79997339840:ios:8dbf5a3a14f8c4a5990525</string>
+	<key>DATABASE_URL</key>
+	<string>https://ridecougar.firebaseio.com</string>
+</dict>
+</plist>

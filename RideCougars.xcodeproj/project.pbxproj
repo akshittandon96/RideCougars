@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0910C322048304E2B89801 /* Pods_RideCougars_RideCougarsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC2DE62F43D8A0B4452987E /* Pods_RideCougars_RideCougarsUITests.framework */; };
 		44061CF42353A72C00E3F608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061CF32353A72C00E3F608 /* AppDelegate.swift */; };
 		44061CF62353A72C00E3F608 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061CF52353A72C00E3F608 /* FirstViewController.swift */; };
 		44061CF82353A72C00E3F608 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061CF72353A72C00E3F608 /* SecondViewController.swift */; };
@@ -17,6 +18,10 @@
 		44061D162353A72E00E3F608 /* RideCougarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061D152353A72E00E3F608 /* RideCougarsUITests.swift */; };
 		44061D242353AC4D00E3F608 /* landingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061D232353AC4D00E3F608 /* landingPage.swift */; };
 		44061D262353AE2900E3F608 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061D252353AE2900E3F608 /* ThirdViewController.swift */; };
+		44061D2A2353BABA00E3F608 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44061D292353BABA00E3F608 /* GoogleService-Info.plist */; };
+		44061D2C2353BF7900E3F608 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44061D2B2353BF7900E3F608 /* LoginPageViewController.swift */; };
+		5C6317CBFC548E2CB729733C /* Pods_RideCougars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5B111ACA77AED1C9BD5910 /* Pods_RideCougars.framework */; };
+		8DFDC167EAA9660696997C39 /* Pods_RideCougarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B47EEE58F4F0992B523FECF5 /* Pods_RideCougarsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18007FCF11299CA9B9D9597A /* Pods-RideCougarsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideCougarsTests.release.xcconfig"; path = "Target Support Files/Pods-RideCougarsTests/Pods-RideCougarsTests.release.xcconfig"; sourceTree = "<group>"; };
+		1A80195B84F73F42F6FF9AB1 /* Pods-RideCougars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideCougars.debug.xcconfig"; path = "Target Support Files/Pods-RideCougars/Pods-RideCougars.debug.xcconfig"; sourceTree = "<group>"; };
+		3E2DDD69B46F242D76E38F96 /* Pods-RideCougars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideCougars.release.xcconfig"; path = "Target Support Files/Pods-RideCougars/Pods-RideCougars.release.xcconfig"; sourceTree = "<group>"; };
 		44061CF02353A72C00E3F608 /* RideCougars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideCougars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44061CF32353A72C00E3F608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44061CF52353A72C00E3F608 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +61,14 @@
 		44061D172353A72E00E3F608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44061D232353AC4D00E3F608 /* landingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = landingPage.swift; sourceTree = "<group>"; };
 		44061D252353AE2900E3F608 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		44061D292353BABA00E3F608 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		44061D2B2353BF7900E3F608 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		4C5B111ACA77AED1C9BD5910 /* Pods_RideCougars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideCougars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98BEA1CA4E695AE012E88D9 /* Pods-RideCougarsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideCougarsTests.debug.xcconfig"; path = "Target Support Files/Pods-RideCougarsTests/Pods-RideCougarsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B47EEE58F4F0992B523FECF5 /* Pods_RideCougarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideCougarsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC2DE62F43D8A0B4452987E /* Pods_RideCougars_RideCougarsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideCougars_RideCougarsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1E5C30D85E8CE71435C34F /* Pods-RideCougars-RideCougarsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideCougars-RideCougarsUITests.debug.xcconfig"; path = "Target Support Files/Pods-RideCougars-RideCougarsUITests/Pods-RideCougars-RideCougarsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDD6F2DA830D63981A2A11F0 /* Pods-RideCougars-RideCougarsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideCougars-RideCougarsUITests.release.xcconfig"; path = "Target Support Files/Pods-RideCougars-RideCougarsUITests/Pods-RideCougars-RideCougarsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C6317CBFC548E2CB729733C /* Pods_RideCougars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DFDC167EAA9660696997C39 /* Pods_RideCougarsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0910C322048304E2B89801 /* Pods_RideCougars_RideCougarsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +106,8 @@
 				44061D092353A72E00E3F608 /* RideCougarsTests */,
 				44061D142353A72E00E3F608 /* RideCougarsUITests */,
 				44061CF12353A72C00E3F608 /* Products */,
+				EBF2BE6C91D804D1CD33A344 /* Pods */,
+				4F1DCE2182092D6202A8F465 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,10 +128,12 @@
 				44061CF52353A72C00E3F608 /* FirstViewController.swift */,
 				44061CF72353A72C00E3F608 /* SecondViewController.swift */,
 				44061CF92353A72C00E3F608 /* Main.storyboard */,
+				44061D2B2353BF7900E3F608 /* LoginPageViewController.swift */,
 				44061D252353AE2900E3F608 /* ThirdViewController.swift */,
 				44061D232353AC4D00E3F608 /* landingPage.swift */,
 				44061CFC2353A72E00E3F608 /* Assets.xcassets */,
 				44061CFE2353A72E00E3F608 /* LaunchScreen.storyboard */,
+				44061D292353BABA00E3F608 /* GoogleService-Info.plist */,
 				44061D012353A72E00E3F608 /* Info.plist */,
 			);
 			path = RideCougars;
@@ -134,6 +157,29 @@
 			path = RideCougarsUITests;
 			sourceTree = "<group>";
 		};
+		4F1DCE2182092D6202A8F465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C5B111ACA77AED1C9BD5910 /* Pods_RideCougars.framework */,
+				BAC2DE62F43D8A0B4452987E /* Pods_RideCougars_RideCougarsUITests.framework */,
+				B47EEE58F4F0992B523FECF5 /* Pods_RideCougarsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF2BE6C91D804D1CD33A344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A80195B84F73F42F6FF9AB1 /* Pods-RideCougars.debug.xcconfig */,
+				3E2DDD69B46F242D76E38F96 /* Pods-RideCougars.release.xcconfig */,
+				CA1E5C30D85E8CE71435C34F /* Pods-RideCougars-RideCougarsUITests.debug.xcconfig */,
+				CDD6F2DA830D63981A2A11F0 /* Pods-RideCougars-RideCougarsUITests.release.xcconfig */,
+				A98BEA1CA4E695AE012E88D9 /* Pods-RideCougarsTests.debug.xcconfig */,
+				18007FCF11299CA9B9D9597A /* Pods-RideCougarsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44061D1A2353A72E00E3F608 /* Build configuration list for PBXNativeTarget "RideCougars" */;
 			buildPhases = (
+				71A8B4E21C4E286E90151878 /* [CP] Check Pods Manifest.lock */,
 				44061CEC2353A72C00E3F608 /* Sources */,
 				44061CED2353A72C00E3F608 /* Frameworks */,
 				44061CEE2353A72C00E3F608 /* Resources */,
+				7030C4880DA8F27E051C5DA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44061D1D2353A72E00E3F608 /* Build configuration list for PBXNativeTarget "RideCougarsTests" */;
 			buildPhases = (
+				74DA11092F48D50F1E6D6BB3 /* [CP] Check Pods Manifest.lock */,
 				44061D022353A72E00E3F608 /* Sources */,
 				44061D032353A72E00E3F608 /* Frameworks */,
 				44061D042353A72E00E3F608 /* Resources */,
@@ -176,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44061D202353A72E00E3F608 /* Build configuration list for PBXNativeTarget "RideCougarsUITests" */;
 			buildPhases = (
+				EC7139C65B8A1E71B423C9E1 /* [CP] Check Pods Manifest.lock */,
 				44061D0D2353A72E00E3F608 /* Sources */,
 				44061D0E2353A72E00E3F608 /* Frameworks */,
 				44061D0F2353A72E00E3F608 /* Resources */,
+				751C6D763B27129A405986CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44061D002353A72E00E3F608 /* LaunchScreen.storyboard in Resources */,
+				44061D2A2353BABA00E3F608 /* GoogleService-Info.plist in Resources */,
 				44061CFD2353A72E00E3F608 /* Assets.xcassets in Resources */,
 				44061CFB2353A72C00E3F608 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +312,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7030C4880DA8F27E051C5DA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RideCougars/Pods-RideCougars-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RideCougars/Pods-RideCougars-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RideCougars/Pods-RideCougars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A8B4E21C4E286E90151878 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RideCougars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74DA11092F48D50F1E6D6BB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RideCougarsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		751C6D763B27129A405986CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RideCougars-RideCougarsUITests/Pods-RideCougars-RideCougarsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RideCougars-RideCougarsUITests/Pods-RideCougars-RideCougarsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RideCougars-RideCougarsUITests/Pods-RideCougars-RideCougarsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC7139C65B8A1E71B423C9E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RideCougars-RideCougarsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44061CEC2353A72C00E3F608 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +423,7 @@
 				44061CF82353A72C00E3F608 /* SecondViewController.swift in Sources */,
 				44061CF42353A72C00E3F608 /* AppDelegate.swift in Sources */,
 				44061D262353AE2900E3F608 /* ThirdViewController.swift in Sources */,
+				44061D2C2353BF7900E3F608 /* LoginPageViewController.swift in Sources */,
 				44061D242353AC4D00E3F608 /* landingPage.swift in Sources */,
 				44061CF62353A72C00E3F608 /* FirstViewController.swift in Sources */,
 			);
@@ -442,6 +598,7 @@
 		};
 		44061D1B2353A72E00E3F608 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A80195B84F73F42F6FF9AB1 /* Pods-RideCougars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,6 +616,7 @@
 		};
 		44061D1C2353A72E00E3F608 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E2DDD69B46F242D76E38F96 /* Pods-RideCougars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +634,7 @@
 		};
 		44061D1E2353A72E00E3F608 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98BEA1CA4E695AE012E88D9 /* Pods-RideCougarsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +655,7 @@
 		};
 		44061D1F2353A72E00E3F608 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18007FCF11299CA9B9D9597A /* Pods-RideCougarsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +676,7 @@
 		};
 		44061D212353A72E00E3F608 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1E5C30D85E8CE71435C34F /* Pods-RideCougars-RideCougarsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +696,7 @@
 		};
 		44061D222353A72E00E3F608 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD6F2DA830D63981A2A11F0 /* Pods-RideCougars-RideCougarsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

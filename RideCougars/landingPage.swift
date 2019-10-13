@@ -12,7 +12,7 @@ class landingPage: UIViewController {
 
     @IBAction func loginbutton(_ sender: Any) {
         
-        performSegue(withIdentifier: "test", sender: self)
+        performSegue(withIdentifier: "loginSegue", sender: self)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
