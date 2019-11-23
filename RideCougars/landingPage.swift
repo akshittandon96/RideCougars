@@ -11,6 +11,10 @@ import UIKit
 class landingPage: UIViewController {
     @IBOutlet weak var bgimage: UIImageView!
     
+    @IBAction func signUp(_ sender: Any) {
+        performSegue(withIdentifier: "firstSignupPage", sender: self)
+        
+    }
     @IBAction func loginbutton(_ sender: Any) {
         
         performSegue(withIdentifier: "loginSegue", sender: self)
